@@ -4,21 +4,21 @@ div{
     background-color: rgb(97, 154, 154);
     margin-top: 20px;
 }
-.a {
+.block-1 {
 width: 400px;
 height: 400px;
 background-color: blueviolet;
 margin-top: 40px;
 border: 50px solid black;
 }
-.b {
+.block-2 {
 width: 200px;
 height: 500;
 background-color: beige;
 margin-top: 30px ;
 border: 40px solid black;
 }
-.c {
+.block-3 {
 width: 500px;
 height: 600px;
 background-color: aqua;
