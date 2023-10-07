@@ -29,19 +29,17 @@ header {
     background-color: cadetblue;
 
     opacity: 0;
-    transition: 0.5s ;
+    transition: 2s ;
     display: flex;
-    
     transform: rotate(0) scale(0);
     align-items: center; 
     justify-content: center;
-    opacity: 100;
+
     
 }
-.checkbox {
- /* не прозрачность  */
-    opacity: 100;
-    transform:  rotate(360) scale(720); /*уменьшение к увеличение  */ 
-
+#check:checked ~ .hidden-block {
+   /* не прозрачность  */
+   opacity: 100;
+   transform:  rotate(360deg) scale(1); /*уменьшение к увеличение  */ 
 
 }
